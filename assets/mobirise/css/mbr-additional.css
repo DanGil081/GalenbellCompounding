@@ -35,11 +35,11 @@ body {
 }
 .display-5 {
   font-family: 'Domine', serif;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-display: swap;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 1.92rem;
+  font-size: 2.88rem;
 }
 .display-7 {
   font-family: 'Permanent Marker', handwriting;
@@ -71,9 +71,9 @@ body {
     line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.44rem;
+    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1225,6 +1225,9 @@ section.lazy-placeholder:after {
 .cid-sa6HcCshrf H2 {
   text-align: center;
 }
+.cid-sa6HcCshrf .card-title {
+  text-align: center;
+}
 .cid-sa8YJEFoJh {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -1348,7 +1351,7 @@ section.lazy-placeholder:after {
   height: 100%;
   padding: 30px 30px;
   color: #ffffff;
-  background-color: #55b4d4;
+  background-color: #7b5b0c;
   z-index: 1;
   margin: 0;
   text-align: center;
