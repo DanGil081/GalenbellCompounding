@@ -1110,6 +1110,10 @@ section.lazy-placeholder:after {
 .cid-saNowC9SZQ H2 {
   text-align: center;
 }
+.cid-saNowC9SZQ .mbr-text,
+.cid-saNowC9SZQ .mbr-section-btn {
+  text-align: center;
+}
 .cid-saeakr2YSl {
   padding-top: 105px;
   padding-bottom: 90px;
@@ -1549,6 +1553,9 @@ section.lazy-placeholder:after {
 .cid-saOB0U2iLD H2 {
   text-align: center;
 }
+.cid-saOB0U2iLD .text1 {
+  text-align: center;
+}
 .cid-saOANrpJV4 {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -1568,6 +1575,12 @@ section.lazy-placeholder:after {
 }
 .cid-saOANrpJV4 .card-wrapper {
   height: 100%;
+}
+.cid-saOANrpJV4 P {
+  text-align: center;
+}
+.cid-saOANrpJV4 .card-title {
+  text-align: center;
 }
 .cid-sa6IXiPxYr {
   padding-top: 90px;
