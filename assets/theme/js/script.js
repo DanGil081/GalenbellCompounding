@@ -1115,3 +1115,23 @@
         });
     }(jQuery));
 !function(){try{document.getElementsByClassName("engine")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.className="engine";a.innerHTML='<a href="https://mobirise.ws">Mobirise Website Builder</a> v4.12.4';document.body.insertBefore(a,document.body.childNodes[0])}}();
+
+
+// Parallax
+if('ontouchstart' in window == false){
+  $('body').mousemove(function(e){
+    var moveX = (e.pageX * -1 / 25);
+    var moveY = (e.pageY * -1 / 25);
+    $('.outer').css('background-position', moveX + 'px ' + moveY + 'px');
+  });
+}
+
+// Set background Image
+$('ul#images li').click(function(){
+  $('ul#images li').each(function(){
+      $(this).removeClass('active');
+  });  
+    $(this).addClass('active');
+    var source = $(this).children('img').attr('src');
+    $('.outer').css('background', 'url('+source+')');
+});
