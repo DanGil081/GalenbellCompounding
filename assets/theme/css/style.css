@@ -1262,5 +1262,6 @@ ul#images li img {
 .titulo12 {
   font-family: 'Yellowtail', serif;
   font-size: 55px;
+  letter-spacing: 2px;
   text-shadow: 4px 4px 4px rgb(46, 43, 43);
 }
