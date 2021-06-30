@@ -1170,8 +1170,9 @@ a:focus {
 }
 
 .outerr {
+  
   background: rgba(0, 0, 0, 0.199);
-  background-image: url("/assets/images/pexels-cottonbro-4620838.jpg");
+  background-image: url("assets/images/pexels-anderson-guerra-1115128-1380x920.jpg");
   background-position: center center;
   @include transform(scale(1.1));
   background-size: cover;
@@ -1256,4 +1257,10 @@ ul#images li img {
   height: 50px;
   display: block;
   border-radius: 5px;
+}
+
+.titulo12 {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
 }
