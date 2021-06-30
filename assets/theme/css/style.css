@@ -1171,7 +1171,7 @@ a:focus {
 
 .outerr {
   background: rgba(0, 0, 0, 0.199);
-  background-image: url("assets/images/pexels-cottonbro-4620838.jpg");
+  background-image: url("/assets/images/pexels-cottonbro-4620838.jpg");
   background-position: center center;
   @include transform(scale(1.1));
   background-size: cover;
